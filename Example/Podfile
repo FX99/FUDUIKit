@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FUDUIKit_Tests' do
+  pod 'FUDUIKit', :path => '../'
+  
+  
+end
