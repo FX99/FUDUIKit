@@ -13,16 +13,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FUDUIKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+Add FUDUIKit directory to your project directly.
+Or use local pod lib
 ```ruby
-pod 'FUDUIKit'
+pod 'FUDUIKit', :path => 'path to FUDUIKit'
 ```
 
 ## Author
 
-fudolan@163.com, lanfudong@58.com
+fudolan@163.com
 
 ## License
 
