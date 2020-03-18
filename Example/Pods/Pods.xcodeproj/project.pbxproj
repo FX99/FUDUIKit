@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115187B2DD820C45730B3D1BEF44C614 /* Pods-FUDUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA1C146D410F4CBFA44E54BA8EE04F5 /* Pods-FUDUIKit_Tests-dummy.m */; };
+		1AAD5B20C8392236D25149581D75B11E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		51998BD757A5DC902EF30FE98A41B566 /* Pods-FUDUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE8F40D6EE17C046BDD177ADED21714 /* Pods-FUDUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770E7C1C1C4948084975FC09FDA42B53 /* FUDUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7E37469CB063AF7DC35EAECA16B9B9 /* FUDUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D9B9BF1F29AFD098EB8448810160D1 /* FUDUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959802274B3F0D73A1AAFF3339F4242F /* FUDUIKit-dummy.m */; };
+		7FE79287CD08F58F661A1B4220831990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F0FA2B195431AE5392CBB85A8E23A324 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A094DFF9A19DF8DF65C908B7064D7 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95AC67FEEE5EF1710EAA6F728EFB4305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AD942659C98410BF9214D77EA0E9CB;
+			remoteInfo = FUDUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3CC4F12F4DB9AB82580D21F7CB5ED3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6DFC0D2E8076239E54FE85CCE78169 /* Pods-FUDUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FUDUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		208AC18E286B136F0E1FC99111452FA0 /* Pods-FUDUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FUDUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B7E37469CB063AF7DC35EAECA16B9B9 /* FUDUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FUDUIKit-umbrella.h"; sourceTree = "<group>"; };
+		4DB5926977B917FA884DD3FEA7C0E706 /* Pods_FUDUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FUDUIKit_Tests.framework; path = "Pods-FUDUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A66EB3F9FC4589CFE89D7705E1101D /* Pods-FUDUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FUDUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		585A094DFF9A19DF8DF65C908B7064D7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5F816ED57DC75B7C13C3DCF6222D0A24 /* Pods-FUDUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FUDUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		776B4AAA2F83256DA540C563257160C6 /* Pods-FUDUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FUDUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		959802274B3F0D73A1AAFF3339F4242F /* FUDUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FUDUIKit-dummy.m"; sourceTree = "<group>"; };
+		9EE8F40D6EE17C046BDD177ADED21714 /* Pods-FUDUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FUDUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A53570EA5147E43343D12AAAD62393A7 /* FUDUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FUDUIKit.xcconfig; sourceTree = "<group>"; };
+		AAB0B57C49E965311A277A6899A7A0A7 /* FUDUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FUDUIKit.modulemap; sourceTree = "<group>"; };
+		AB1881D429D8866406FB2DA55F4BD4F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78577825A78CAFA4CE9FA366F1A9622 /* FUDUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FUDUIKit-prefix.pch"; sourceTree = "<group>"; };
+		D86B9B5357943A5797BAD68EA4FB63A9 /* FUDUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FUDUIKit.framework; path = FUDUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70B81A23CFDA65B0343BE1D238707DC /* Pods-FUDUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FUDUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E84A7D5EBA551B3B636A0DA9F1BC0B0C /* Pods-FUDUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FUDUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		EDA1C146D410F4CBFA44E54BA8EE04F5 /* Pods-FUDUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FUDUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF07AF3EE6F41EC9EB12C2F7E9F8BD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE79287CD08F58F661A1B4220831990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB684A7ECCA440D332FBB8A133C2F3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAD5B20C8392236D25149581D75B11E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3984C03AF70D5F02649DEFCFBE8CAEAC /* FUDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C3325D080D3231BAF531940B8DAC93B1 /* Classes */,
+			);
+			name = FUDUIKit;
+			path = FUDUIKit;
+			sourceTree = "<group>";
+		};
+		43DF3BE18C396ACC7273D4DD6385482C /* Pods-FUDUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3CC4F12F4DB9AB82580D21F7CB5ED3 /* Info.plist */,
+				E84A7D5EBA551B3B636A0DA9F1BC0B0C /* Pods-FUDUIKit_Tests.modulemap */,
+				53A66EB3F9FC4589CFE89D7705E1101D /* Pods-FUDUIKit_Tests-acknowledgements.markdown */,
+				0D6DFC0D2E8076239E54FE85CCE78169 /* Pods-FUDUIKit_Tests-acknowledgements.plist */,
+				EDA1C146D410F4CBFA44E54BA8EE04F5 /* Pods-FUDUIKit_Tests-dummy.m */,
+				208AC18E286B136F0E1FC99111452FA0 /* Pods-FUDUIKit_Tests-frameworks.sh */,
+				5F816ED57DC75B7C13C3DCF6222D0A24 /* Pods-FUDUIKit_Tests-resources.sh */,
+				9EE8F40D6EE17C046BDD177ADED21714 /* Pods-FUDUIKit_Tests-umbrella.h */,
+				E70B81A23CFDA65B0343BE1D238707DC /* Pods-FUDUIKit_Tests.debug.xcconfig */,
+				776B4AAA2F83256DA540C563257160C6 /* Pods-FUDUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-FUDUIKit_Tests";
+			path = "Target Support Files/Pods-FUDUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		45B1297313B99330F751620D65F48E04 /* FUDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3984C03AF70D5F02649DEFCFBE8CAEAC /* FUDUIKit */,
+				FF778B8C2BAC4BE86D4950CF2A511161 /* Support Files */,
+			);
+			name = FUDUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		503380D8D4FBCE28D4AE70E4486DB29B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43DF3BE18C396ACC7273D4DD6385482C /* Pods-FUDUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BED9AEB8A2E3C5BAEEE1C61C29A2C303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86B9B5357943A5797BAD68EA4FB63A9 /* FUDUIKit.framework */,
+				4DB5926977B917FA884DD3FEA7C0E706 /* Pods_FUDUIKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0B7115A711679A71126C5873796BF02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B1297313B99330F751620D65F48E04 /* FUDUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C3325D080D3231BAF531940B8DAC93B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				585A094DFF9A19DF8DF65C908B7064D7 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				C0B7115A711679A71126C5873796BF02 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BED9AEB8A2E3C5BAEEE1C61C29A2C303 /* Products */,
+				503380D8D4FBCE28D4AE70E4486DB29B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF778B8C2BAC4BE86D4950CF2A511161 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0B57C49E965311A277A6899A7A0A7 /* FUDUIKit.modulemap */,
+				A53570EA5147E43343D12AAAD62393A7 /* FUDUIKit.xcconfig */,
+				959802274B3F0D73A1AAFF3339F4242F /* FUDUIKit-dummy.m */,
+				B78577825A78CAFA4CE9FA366F1A9622 /* FUDUIKit-prefix.pch */,
+				4B7E37469CB063AF7DC35EAECA16B9B9 /* FUDUIKit-umbrella.h */,
+				AB1881D429D8866406FB2DA55F4BD4F1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FUDUIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		270BDC14823AFCEE3A57ACC98FAA8841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E7C1C1C4948084975FC09FDA42B53 /* FUDUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5F9426F2AD33700B05F3BA4969A055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51998BD757A5DC902EF30FE98A41B566 /* Pods-FUDUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A01BAAB8837839777EFC9023BA16386 /* Pods-FUDUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4F5B5FD042DAB0913242816C80C4AE /* Build configuration list for PBXNativeTarget "Pods-FUDUIKit_Tests" */;
+			buildPhases = (
+				3F5F9426F2AD33700B05F3BA4969A055 /* Headers */,
+				F7FBC4553BB6DD0C6DF934575375FD52 /* Sources */,
+				EB684A7ECCA440D332FBB8A133C2F3B9 /* Frameworks */,
+				F187D0ADE959FB25EFC2468DC82022DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7794598B4F59060295F84B9F3EC55821 /* PBXTargetDependency */,
+			);
+			name = "Pods-FUDUIKit_Tests";
+			productName = "Pods-FUDUIKit_Tests";
+			productReference = 4DB5926977B917FA884DD3FEA7C0E706 /* Pods_FUDUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0AD942659C98410BF9214D77EA0E9CB /* FUDUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFABFEC0E3C239D69671A7B64C06A40 /* Build configuration list for PBXNativeTarget "FUDUIKit" */;
+			buildPhases = (
+				270BDC14823AFCEE3A57ACC98FAA8841 /* Headers */,
+				F3E156E0D2FEED56BA59CD8D00502DAE /* Sources */,
+				DF07AF3EE6F41EC9EB12C2F7E9F8BD4D /* Frameworks */,
+				CA4E3507280EB3A6C5A5CE499E9242F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FUDUIKit;
+			productName = FUDUIKit;
+			productReference = D86B9B5357943A5797BAD68EA4FB63A9 /* FUDUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BED9AEB8A2E3C5BAEEE1C61C29A2C303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0AD942659C98410BF9214D77EA0E9CB /* FUDUIKit */,
+				1A01BAAB8837839777EFC9023BA16386 /* Pods-FUDUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4E3507280EB3A6C5A5CE499E9242F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F187D0ADE959FB25EFC2468DC82022DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E156E0D2FEED56BA59CD8D00502DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9B9BF1F29AFD098EB8448810160D1 /* FUDUIKit-dummy.m in Sources */,
+				F0FA2B195431AE5392CBB85A8E23A324 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FBC4553BB6DD0C6DF934575375FD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115187B2DD820C45730B3D1BEF44C614 /* Pods-FUDUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7794598B4F59060295F84B9F3EC55821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FUDUIKit;
+			target = E0AD942659C98410BF9214D77EA0E9CB /* FUDUIKit */;
+			targetProxy = 95AC67FEEE5EF1710EAA6F728EFB4305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080D64A01DC38458A79417637754035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53570EA5147E43343D12AAAD62393A7 /* FUDUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FUDUIKit/FUDUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FUDUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FUDUIKit/FUDUIKit.modulemap";
+				PRODUCT_NAME = FUDUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CE997AF600E4328A93076A2F7823F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776B4AAA2F83256DA540C563257160C6 /* Pods-FUDUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FUDUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FUDUIKit_Tests/Pods-FUDUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FUDUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C41F405EF0AD6A7455046BB566CB63B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD5DB94891EDFDD16C09055195487BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53570EA5147E43343D12AAAD62393A7 /* FUDUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FUDUIKit/FUDUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FUDUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FUDUIKit/FUDUIKit.modulemap";
+				PRODUCT_NAME = FUDUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DED8493F2503BB9C2E5789011A9BD33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70B81A23CFDA65B0343BE1D238707DC /* Pods-FUDUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FUDUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FUDUIKit_Tests/Pods-FUDUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FUDUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE84F6547DC0CBB7F2192F84B3C3B462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE84F6547DC0CBB7F2192F84B3C3B462 /* Debug */,
+				C41F405EF0AD6A7455046BB566CB63B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFABFEC0E3C239D69671A7B64C06A40 /* Build configuration list for PBXNativeTarget "FUDUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080D64A01DC38458A79417637754035C /* Debug */,
+				DD5DB94891EDFDD16C09055195487BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4F5B5FD042DAB0913242816C80C4AE /* Build configuration list for PBXNativeTarget "Pods-FUDUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED8493F2503BB9C2E5789011A9BD33E /* Debug */,
+				9CE997AF600E4328A93076A2F7823F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
