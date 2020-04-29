@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FUDUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of FUDUIKit.'
   s.description      = <<-DESC
 Add long description of the pod here.
