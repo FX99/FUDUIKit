@@ -24,13 +24,13 @@ Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FUDUIKit/**/*.{h,m,mm,c,cpp}'
-  s.resources = 'FUDUIKit/**/*.{plist,xcassets,bundle,xib}'
+  s.resources = 'FUDUIKit/**/*.{xcassets,bundle,xib}'
   
   # s.resource_bundles = {
   #   'FUDUIKit' => ['FUDUIKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'FUDUIKit/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

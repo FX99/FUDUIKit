@@ -1,0 +1,6 @@
+framework module FUDUIKit {
+  umbrella header "FUDUIKit.h"
+
+  export *
+  module * { export * }
+}
