@@ -15,5 +15,6 @@ Add long description of the pod here.
   s.frameworks = 'UIKit'
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'Products/FUDUIKit.framework'
+  s.resources = 'Products/FUDUIKit.framework/FUDUIKit.xcassets'
 
 end

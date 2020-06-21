@@ -4,9 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>FUDUIKit.xcassets/Contents.json</key>
+		<data>
+		OsxTSdeF0zGUdTl13dMC26vX4YM=
+		</data>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/Contents.json</key>
+		<data>
+		qZArLIv4Sm25u7ixpWRzPWZNGOA=
+		</data>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/tabbar_icon@2x.png</key>
+		<data>
+		k/RGCP8i3zNq5tbja/66uvp75+w=
+		</data>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/tabbar_icon@3x.png</key>
+		<data>
+		aEUF4LsJNcn7kd4aQEHCVpszppE=
+		</data>
 		<key>Headers/FUDUIKit.h</key>
 		<data>
-		uVETucJFLX7nZEyzW20NXexZjqo=
+		7utiF7KyCfOoyu0Ty1+hF23YXiU=
 		</data>
 		<key>Headers/UIColor+FUDHex.h</key>
 		<data>
@@ -22,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6q1EwKTTpkZeS/aGUzx9h17BC5A=
+		ZdkW7QQDqyC+aJLZqSdSUrysJ3k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,15 +47,59 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>FUDUIKit.xcassets/Contents.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OsxTSdeF0zGUdTl13dMC26vX4YM=
+			</data>
+			<key>hash2</key>
+			<data>
+			D9Sbo8NYXHCWeOAEaoIcPGBoXscGNyDTDTo0SL46IIs=
+			</data>
+		</dict>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/Contents.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qZArLIv4Sm25u7ixpWRzPWZNGOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5dbhC90VYbXaml3PPJpMC+Bkrod5KH88vfTbYV973Z8=
+			</data>
+		</dict>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/tabbar_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k/RGCP8i3zNq5tbja/66uvp75+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			jDNds5RxG7TttZbMDKyXrd0rSS6BqkYE96syGY0slxg=
+			</data>
+		</dict>
+		<key>FUDUIKit.xcassets/tabbar_icon.imageset/tabbar_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aEUF4LsJNcn7kd4aQEHCVpszppE=
+			</data>
+			<key>hash2</key>
+			<data>
+			9s3rXR5Isl/Zd5eLj/7fAeoZ86yP1SZAn7LGFcpXsaw=
+			</data>
+		</dict>
 		<key>Headers/FUDUIKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uVETucJFLX7nZEyzW20NXexZjqo=
+			7utiF7KyCfOoyu0Ty1+hF23YXiU=
 			</data>
 			<key>hash2</key>
 			<data>
-			5sDIyuGOo++MD3M4C0IaCOI+W3PN8PiNue5Q4X+CuLM=
+			2FMKAeZ6PrY6jX/nQ7e7k34Vfob64nHFJDASTkDMGYU=
 			</data>
 		</dict>
 		<key>Headers/UIColor+FUDHex.h</key>

@@ -17,6 +17,13 @@ NS_ASSUME_NONNULL_BEGIN
  @param size 尺寸
  */
 + (UIImage *)fud_imageWithColor:(UIColor *)color size:(CGSize)size;
+/**
+ 将磁盘上大图片解码为小图片（建议在子线程使用），避免浪费内存
+ @param imageURL 大图片所在路径
+ @param size 小图片尺寸
+ @param scale scale
+ */
++ (UIImage *)downSample:(NSURL *)imageURL toSize:(CGSize)size scale:(CGFloat)scale;
 
 @end
 

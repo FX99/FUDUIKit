@@ -2,10 +2,14 @@
 //  FUDUIKit.h
 //  FUDUIKit
 //
-//  Created by lanfudong on 2020/4/28.
-//  Copyright © 2020 lanfudong. All rights reserved.
+//  Created by lanfudong on 2019/11/1.
 //
 
+#ifndef FUDUIKit_h
+#define FUDUIKit_h
+
+#import "UIView+FUDFrame.h"
 #import "UIColor+FUDHex.h"
 #import "UIImage+FUDKit.h"
-#import "UIView+FUDFrame.h"
+
+#endif /* FUDUIKit_h */
